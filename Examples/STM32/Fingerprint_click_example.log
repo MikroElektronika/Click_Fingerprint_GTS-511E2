@@ -1,0 +1,15 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F107VC -UICD -BIN -LHF -DL -SSA -O11111114 -fo72 -N"C:\Users\Viktor\Desktop\Klikovi\Fingerptint_click\stm32_primer\Fingerprint_click_example.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\" -SP"C:\Users\Viktor\Desktop\Klikovi\Fingerptint_click\stm32_primer\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -IP"C:\Users\Viktor\Desktop\Klikovi\Fingerptint_click\stm32_primer\" "Fingerprint_click_example.c" "fingerprint.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_105_107.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl" "__Lib_SPI_123.emcl" "__Lib_CF.emcl" "__Lib_TFT.emcl" "__Lib_TFT_Defs.emcl"	 
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 53	123	Compiled Successfully	Fingerprint_click_example.c
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 80	1163	Variable 'temp_i' has been declared, but not used	fingerprint.c
+diagnostics: 122	123	Compiled Successfully	fingerprint.c
+hint: 54	1164	Variable 'temp_spi_buffer' has been eliminated by optimizer	fingerprint.c
+diagnostics: 0	127	All files Compiled in 46 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 264   Dynamic RAM (bytes): 65269	Static RAM (bytes): 264   Dynamic RAM (bytes): 65269
+hint: 0	1144	Used ROM (bytes): 11562 (4%)  Free ROM (bytes): 250582 (96%)	Used ROM (bytes): 11562 (4%)  Free ROM (bytes): 250582 (96%)
+diagnostics: 0	125	Project Linked Successfully	Fingerprint_click_example.mcpar
+diagnostics: 0	128	Linked in 204 ms	 
+diagnostics: 0	129	Project 'Fingerprint_click_example.mcpar' completed: 360 ms	 
+diagnostics: 0	103	Finished successfully: 30 Nov 2016, 18:08:27	Fingerprint_click_example.mcpar
